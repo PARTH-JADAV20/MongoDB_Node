@@ -9,7 +9,8 @@ const port = 3000;
 app.use(cors())
 
 // MongoDB connection details
-const url = "mongodb://127.0.0.1:27017"; 
+// const urllocal = "mongodb://127.0.0.1:27017"; 
+const url = "mongodb+srv://parthjadav:363310parth@cluster0.49sgd.mongodb.net/";
 const dbName = "codinggita";
 
 // Middleware
